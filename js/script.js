@@ -7,7 +7,7 @@ const titleClickHandler = function (event) {
     console.log('Link was clicked!', event);
 
     /* remove class 'active' from all article links  */
-    const activeLinks = document.querySelectorAll('.titiles a.active');
+    const activeLinks = document.querySelectorAll('.titles a.active');
 
     for (let activeLink of activeLinks) {
         activeLink.classList.remove('active');
