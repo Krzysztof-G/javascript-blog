@@ -106,7 +106,7 @@ function generateTags(){
     /* insert HTML of all the links into the tags wrapper */
 
     /* END LOOP: for every article: */
-
+    tagWrapper.innerHTML = html;
   }
 }
 generateTags();
