@@ -24,6 +24,9 @@ body {
   line-height: 1.7;
 }
 
+a {
+  text-decoration: none;
+}
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -89,6 +92,7 @@ body {
 
 .list-horizontal {
   li {
+    margin: 0 10px 0 0;
     display: inline-block;
   }
 }
@@ -117,8 +121,38 @@ body {
 
 .post-tags {
   display: flex;
-  
+
   p {
     margin: 0 10px 0 0;
   }
+}
+
+.tag-size-1 {
+  font-size: 10px;
+  color:green;
+
+}
+
+.tag-size-2 {
+  font-size: 20px;
+  color: blue;
+
+}
+
+.tag-size-3 {
+  font-size: 30px;
+  color: green;
+
+}
+
+.tag-size-4 {
+  font-size: 40px;
+  color: orange;
+
+}
+
+.tag-size-5 {
+  font-size: 50px;
+  color: red;
+
 }
