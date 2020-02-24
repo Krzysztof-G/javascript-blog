@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css?family=Inconsolata|Signika:400,700&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <title>javasript-blog</title>
+    <title>javascript-blog</title>
 </head>
 
 <body>
@@ -270,6 +270,16 @@
             </main>
         </div>
     </div>
+    <script id="template-author-link" type="text/x-handlebars-template">
+      <li><a href="#author-{{ id }}"><span>{{ id }}</span></a></li>
+    </script>
+    <script id="template-tag-link" type="text/x-handlebars-template">
+      <li><a href="#tag-{{ id }}"><span>{{ id }}</span></a></li>
+    </script>
+    <script id="template-article-link" type="text/x-handlebars-template">
+      <li><a href="#{{ id }}"><span>{{ title }}</span></a></li>
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
